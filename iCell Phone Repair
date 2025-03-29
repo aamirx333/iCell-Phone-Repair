@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Repair Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #333; color: #fff; text-align: center; padding: 1rem; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        .hero { text-align: center; padding: 2rem; background: #444; color: white; }
+        .services { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 2rem; }
+        .service { background: white; padding: 1rem; margin: 1rem; text-align: center; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .contact { text-align: center; padding: 2rem; background: #222; color: white; }
+        button { padding: 10px 20px; background: #ff6600; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fast & Reliable Phone Repair</h1>
+    </header>
+    <section class="hero">
+        <h2>Cracked Screen? We Can Fix It!</h2>
+        <p>Quick, affordable, and professional phone repair services.</p>
+        <button>Contact Us</button>
+    </section>
+    <section class="services container">
+        <div class="service">
+            <h3>Screen Repair</h3>
+            <p>We fix cracked and shattered screens quickly.</p>
+        </div>
+        <div class="service">
+            <h3>Battery Replacement</h3>
+            <p>Is your battery draining fast? Get a replacement today.</p>
+        </div>
+        <div class="service">
+            <h3>Water Damage Repair</h3>
+            <p>We can restore your phone from water damage.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Call us at (123) 456-7890 or visit our store for quick repairs.</p>
+        <button>Get a Quote</button>
+    </section>
+</body>
+</html>
